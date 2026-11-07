@@ -1,0 +1,37 @@
+
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build output
+dist/
+build/
+coverage/
+.vite/
+*.tsbuildinfo
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# Local scratch files
+*.local
+*.tmp
+
+# IMPORTANT:
+# Do not add .kiro/ to this file.
+# Kiro steering, specs, hooks, and relevant project configuration
+# must be committed to the public repository.
